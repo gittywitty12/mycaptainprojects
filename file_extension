@@ -1,0 +1,10 @@
+# takes the name of the file and prints the extension of the file
+
+filename=input("enter the full name of file: ")
+file_and_ext=filename.split(".")
+if file_and_ext[1] == "py":
+    print("the extension of the file is python")
+elif file_and_ext[1] == "txt":
+    print("the extension of the file is text")
+elif file_and_ext[1] == "jpg":
+    print("the extension of the file is picture")
