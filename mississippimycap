@@ -1,0 +1,10 @@
+str = "mississippi"
+count = {}
+for i in str :
+    if i in count.keys() :
+        count[i]+=1
+    else :
+        count[i]=1
+count=sorted(count.items(),key=lambda i:i[1],reverse=True)
+for i in count :
+    print (i[0],'=',i[1])
